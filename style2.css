@@ -1,0 +1,67 @@
+/* style2.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box-form {
+    display: flex;
+    max-width: 600px; /* Adjust the maximum width of the login box */
+    margin: 50px auto;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.left {
+    flex: 1;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+}
+
+.right {
+    flex: 1.5;
+    padding: 30px;
+    background-color: #f2f2f2;
+}
+
+h5 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.inputs input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.remember-me--forget-password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

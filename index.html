@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <div class="page-container">
+        <header>
+            <img src="attitude_face-removebg-preview.png" alt="Logo">
+            <h1 class="heading">College Student Management</h1>
+            <div class="login-buttons">
+                <button class="login-button" onclick="location.href='#'">Contact Us</button>
+            </div>
+        </header>
+
+        <nav>
+            <a href="#">Home</a>
+            <div class="activities-dropdown">
+                <a href="#" class="activities">Activities</a>
+                <div class="activities-dropdown-content">
+                    <a href="#">Regular Attendance</a>
+                    <a href="#">Overall Attendance</a>
+                </div>
+            </div>
+            <a href="#">School</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="online-exam.html">Online Exam</a>
+            <a href="material.html">Material</a>
+            <a href="Examination.html">Examination</a>
+        </nav>
+
+        <div class="welcome-message">
+            Welcome, <span id="student-name">Sourav Kumar</span>!
+        </div>
+
+        <div class="student-container">
+            <div class="student-photo">
+                <!-- Add student photo here -->
+                <img src="attitude_face-removebg-preview.png" alt="Student Photo">
+            </div>
+            <div class="student-details">
+                <h2>Student Details</h2>
+                <p>Name: <span id="student-name">Sourav Kumar</span></p>
+                <p>Phone Number: <span id="student-phone">7672048441</span></p>
+                <p>Hall Ticket Number: <span id="hall-ticket">23UJ1A0553</span></p>
+                <p>Age: <span id="student-age">20</span></p>
+            </div>
+        </div>
+
+        <div class="timetable-container">
+            <h2 class="t-head">Subject Timetable</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Period</th>
+                        <th>Faculty Name</th>
+                        <th>Subject Name</th>
+                        <th>Number of Periods</th>
+                        <th>Regular Class or Lab</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Dr. Smith</td>
+                        <td>Mathematics</td>
+                        <td>5</td>
+                        <td>Regular</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Prof. Johnson</td>
+                        <td>Physics</td>
+                        <td>4</td>
+                        <td>Lab</td>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Dr. Smith</td>
+                            <td>Mathematics</td>
+                            <td>5</td>
+                            <td>Regular</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Prof. Johnson</td>
+                            <td>Physics</td>
+                            <td>4</td>
+                            <td>Lab</td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                        <tr>
+                            <td>3</td>
+                            <td>Dr. Anderson</td>
+                            <td>Chemistry</td>
+                            <td>3</td>
+                            <td>Regular</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Prof. Wilson</td>
+                            <td>Computer Science</td>
+                            <td>4</td>
+                            <td>Lab</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Dr. Brown</td>
+                            <td>Biology</td>
+                            <td>3</td>
+                            <td>Regular</td>
+                        </tr>
+                    </tbody>
+                    
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Content goes here -->
+    </div>
+</body>
+</html>
